@@ -5,13 +5,12 @@ int main()
 {
     char str[100];
     int i;
-    int t;
+    
     printf("Enter a value");
-    scanf("%d", &i, str);
-    printf("\nYou entered: %d:::::%s\n", i, str);
 
-    printf("erhetht4");
-    scanf("%d", &t);
-    printf("\nYou entered: %d:::::%s\n", t);
+    scanf("%d", &i);
+
+    printf("\nYou entered: %d\n", i);
+
     return 0;
 }

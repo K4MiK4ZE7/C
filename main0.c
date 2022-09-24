@@ -1,9 +1,17 @@
 #include <stdio.h>
 
-//main function
 
 int main()
 {
-    printf("Hi, my name is Halit Hamza"); //prints (displays) "" in terminal
+
+    char str[100];
+    int i;
+
+    printf("Enter a value");
+
+    scanf("%d", &i);
+
+    printf("\nYou entered: %d\n", i);
+
     return 0;
 }
